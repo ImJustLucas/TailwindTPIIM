@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-Montserrat;
+  }
+
+  /* * {
+    transition: all 0.2s ease-in-out;
+  } */
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
