@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            colors: {
+              emerald: "#11b981",
+              bgPrimary: "rgb(248 250 252/1)",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header
+      class="w-full py-4 px-10 h-[80px] flex justify-between items-center border-b border-gray-200"
+    >
+      <h1 class="text-l font-semibold">
+        Wind<span class="text-emerald">UI</span>
+      </h1>
+      <p class="text-sm text-gray-500 font-medium">Components</p>
+    </header>
+
+    <div class="min-h-[calc(100vh-80px)] p-10 bg-bgPrimary">
+      <section
+        class="hero flex justify-between pb-10 flex-col items-center md:flex-row"
+      >
+        <div class="text-content flex flex-col w-100 md:w-[49%] pb-6 md:pb-0">
+          <h1 class="pb-6 text-3xl font-semibold md:text-5xl lg:text-6xl">
+            Streamline your Tailwind CSS projects
+          </h1>
+          <p class="pb-6 text-lg">
+            Expertly made, responsive, accessible components in React and HTML
+            ready to be used on your website or app. Just copy and paste them on
+            your Tailwind CSS project.
+          </p>
+          <button
+            class="rounded bg-emerald text-white w-auto p-4 w-fit flex items-center gap-2 shadow-xl shadow-[#D1FAE5] my-3 md:m-0"
+          >
+            Get started now
+            <img
+              class="w-[20px] colors-white"
+              src="./img/icon-arrow-left.svg"
+              alt="icon"
+            />
+          </button>
+        </div>
+
+        <div class="img-container w-100 md:w-[49%]">
+          <img src="./img/hero-img.svg" alt="hero banner img" />
+        </div>
+      </section>
+
+      <section class="cards flex flex-col md:flex-row gap-6 md:gap-4 pt-3">
+        <div class="rounded-lg bg-white p-6 shadow-xl flex-1">
+          <div class="flex justify-center">
+            <img src="./img/icon-component.svg" alt="" class="w-[30px]" />
+          </div>
+          <div class="pt-6">
+            <h2 class="pb-6 text-lg font-medium text-center">
+              Accessible Components
+            </h2>
+            <p class="text-center">
+              All components come with proper attributes to ensure full
+              accessibility with the WAI-ARIA standards.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-lg bg-white p-6 shadow-xl flex-1">
+          <div class="flex justify-center">
+            <img src="./img/icon-copypaste.svg" alt="" class="w-[30px]" />
+          </div>
+          <div class="pt-6">
+            <h2 class="pb-6 text-lg font-medium text-center">
+              Just Copy & Paste
+            </h2>
+            <p class="text-center">
+              All components can be copied and pasted and easily implemented in
+              your tailwind css projects.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-lg bg-white p-6 shadow-xl flex-1">
+          <div class="flex justify-center">
+            <img src="./img/icon-responsive.svg" alt="" class="w-[30px]" />
+          </div>
+          <div class="pt-6">
+            <h2 class="pb-6 text-lg font-medium text-center">
+              Fully Responsive
+            </h2>
+            <p class="text-center">
+              Every component is fully responsive and implemented to look great
+              at any screen size.
+            </p>
+          </div>
+        </div>
+        <div class="rounded-lg bg-white p-6 shadow-xl flex-1">
+          <div class="flex justify-center">
+            <img src="./img/icon-vanilla.svg" alt="" class="w-[30px]" />
+          </div>
+          <div class="pt-6">
+            <h2 class="pb-6 text-lg font-medium text-center">
+              Vanilla Tailwind
+            </h2>
+            <p class="text-center">
+              The code is used in its original form without any customization or
+              third party dependencies.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

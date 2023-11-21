@@ -1,0 +1,6 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" style="background-color: transparent; color: transparent;" role="graphics-symbol" aria-labelledby="title-01 desc-01">
+<title id="title-01">Vanilla code icon</title>
+<desc id="desc-01">
+An icon to represent the vanilla code feature
+</desc>
+<defs><style>.cls-1,.cls-2{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:3.50px;}.cls-1{stroke:#1E293B;}.cls-2{stroke:#10B981;}</style></defs><path class="cls-1" d="M168.66,60v86.72a9.84,9.84,0,0,1-10.09,9.55h-11"></path><path class="cls-1" d="M124.12,156.23H33.57a9.84,9.84,0,0,1-10.09-9.55V60"></path><path class="cls-1" d="M33.48,41.62H158.66a10,10,0,0,1,10,10V60a0,0,0,0,1,0,0H23.48a0,0,0,0,1,0,0V51.62A10,10,0,0,1,33.48,41.62Z"></path><polyline class="cls-2" points="114.25 124.9 135.18 108.09 114.25 91.28"></polyline><polyline class="cls-2" points="77.89 124.9 56.96 108.09 77.89 91.28"></polyline><line class="cls-2" x1="101.45" y1="92.22" x2="90.57" y2="123.96"></line></svg>
